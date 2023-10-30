@@ -6,6 +6,7 @@ Ensuring the table contained all the data required.
 Identifying missing data. 
 Checking for duplicates.
 Ensuring the right data type.
+Ensuring data consistency during changes
 
 
 QA Process:
