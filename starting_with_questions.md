@@ -104,8 +104,8 @@ GROUP BY city, productcategory
 order by sum(product) desc
 ```
 Answer:
-It is evident that visitors from most countries order apparel on the website as that is the most ordered product category from the top 3 countries with the highest order by productcategories (US, India and Japan).
-Apparel is also the most ordered product category from 4 out of the top 5 cities with the highest orders grouped by productcategories.
+It is clear that visitors from most countries order apparel on the website as that is the most ordered product category from the top 3 countries with the highest order by productcategories (US, India and Japan).
+Furthermore, Apparel is the most ordered product category from 4 out of the top 5 cities with the highest orders grouped by productcategories.
 
 **Question 4: What is the top-selling product from each city/country? Can we find any pattern worthy of noting in the products sold?**
 
@@ -141,8 +141,8 @@ HAVING city not like '%not%'
 order by sum(product) desc
 ```
 Answer:
-Because the majority of the visitors came in from the United States, the top products ordered are also from visitors in the United States. There also isnèt any visible trends as the top three products ordered are Google's cotton short sleeve shirt, Google Power bank and Youtube Custom Decals.
-There is no observable trend in the product ordered by visitors from various cities. Visitors from charlotte ordered 1582 units of the google lunch bags while visitors from chicago ordered the youtube custom decals. Coming in at third is visitorss from Hong Kong who ordered Google Device stands mostly. 
+Because the majority of the visitors originated from the United States, the top products ordered are from visitors in the United States. Also, there aren't any visible trends as the top three products ordered are Google's cotton short sleeve shirt, Google Power bank and Youtube Custom Decals.
+When we delve into the specific cities, there isn't a noticeable trend in product ordered by visitors from various cities. For instance, visitors from Charlotte ordered a substantial 1582 units of Google lunch bags, while visitors from Chicago orded for Youtube Custom Decals. Hong Kong visitors primarily ordered Google Device stands, rounding out the top three products ordered.
 
 **Question 5: Can we summarize the impact of revenue generated from each city/country?**
 
