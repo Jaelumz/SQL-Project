@@ -8,7 +8,6 @@ What issues will you address by cleaning the data?
 -inserted a new column in all_sessions table with a split of the product category
 
 
-
 Queries:
 Below, provide the SQL queries you used to clean your data.
 
