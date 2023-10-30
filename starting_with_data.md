@@ -58,9 +58,3 @@ on s.fullvisitorid = n.fullvisitorid) as temp6
 Answer:
 About 2% of all visitors to the website go on to make a purchase.
 
-
-Question 5: 
-
-SQL Queries:
-
-Answer:
